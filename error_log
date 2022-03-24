@@ -1,0 +1,65 @@
+[16-Nov-2021 00:45:04 UTC] PHP Warning:  array_column() expects parameter 1 to be array, string given in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/RemoteInboxNotifications/Transformers/ArrayColumn.php on line 27
+[16-Nov-2021 00:45:04 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/RemoteInboxNotifications/Transformers/Count.php on line 24
+[16-Nov-2021 01:04:30 UTC] PHP Warning:  array_column() expects parameter 1 to be array, string given in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/RemoteInboxNotifications/Transformers/ArrayColumn.php on line 27
+[16-Nov-2021 01:04:30 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/RemoteInboxNotifications/Transformers/Count.php on line 24
+[18-Nov-2021 19:27:55 UTC] PHP Warning:  array_column() expects parameter 1 to be array, string given in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/RemoteInboxNotifications/Transformers/ArrayColumn.php on line 27
+[18-Nov-2021 19:27:55 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/RemoteInboxNotifications/Transformers/Count.php on line 24
+[17-Dec-2021 19:23:53 UTC] Error checking in buffer: The buffer you checked in was not checked out
+[20-Dec-2021 17:11:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Core\DocumentTypes\Post' not found in /home4/rarococo/public_html/drome/wp-content/plugins/elementor/core/documents-manager.php:121
+Stack trace:
+#0 /home4/rarococo/public_html/drome/wp-includes/class-wp-hook.php(303): Elementor\Core\Documents_Manager->register_default_types(Object(Elementor\Core\Documents_Manager))
+#1 /home4/rarococo/public_html/drome/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home4/rarococo/public_html/drome/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home4/rarococo/public_html/drome/wp-content/plugins/elementor/core/documents-manager.php(692): do_action('elementor/docum...', Object(Elementor\Core\Documents_Manager))
+#4 /home4/rarococo/public_html/drome/wp-content/plugins/elementor/core/documents-manager.php(177): Elementor\Core\Documents_Manager->register_types()
+#5 /home4/rarococo/public_html/drome/wp-content/plugins/elementor-pro/modules/theme-builder/module.php(98): Elementor\Core\Documents_Manager->get(95)
+#6 in /home4/rarococo/public_html/drome/wp-content/plugins/elementor/core/documents-manager.php on line 121
+[20-Dec-2021 17:11:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Core\Logger\Loggers\Logger_Interface' not found in /home4/rarococo/public_html/drome/wp-content/plugins/elementor/core/logger/manager.php:215
+Stack trace:
+#0 /home4/rarococo/public_html/drome/wp-content/plugins/elementor/core/logger/manager.php(47): Elementor\Core\Logger\Manager->get_log_type_from_php_error(1)
+#1 [internal function]: Elementor\Core\Logger\Manager->shutdown()
+#2 {main}
+  thrown in /home4/rarococo/public_html/drome/wp-content/plugins/elementor/core/logger/manager.php on line 215
+[12-Jan-2022 04:23:20 UTC] PHP Warning:  require(/home4/rarococo/public_html/drome/wp-content/plugins/jetpack/vendor/automattic/jetpack-roles/src/class-roles.php): failed to open stream: No such file or directory in /home4/rarococo/public_html/drome/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[12-Jan-2022 04:23:20 UTC] PHP Warning:  require(/home4/rarococo/public_html/drome/wp-content/plugins/jetpack/vendor/automattic/jetpack-roles/src/class-roles.php): failed to open stream: No such file or directory in /home4/rarococo/public_html/drome/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[12-Jan-2022 04:23:20 UTC] PHP Fatal error:  require(): Failed opening required '/home4/rarococo/public_html/drome/wp-content/plugins/jetpack/vendor/automattic/jetpack-roles/src/class-roles.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/rarococo/public_html/drome/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[12-Jan-2022 04:23:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Automattic\Jetpack\Roles' not found in /home4/rarococo/public_html/drome/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-listener.php:402
+Stack trace:
+#0 /home4/rarococo/public_html/drome/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-listener.php(338): Automattic\Jetpack\Sync\Listener->get_actor('jetpack_update_...', Array)
+#1 /home4/rarococo/public_html/drome/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-listener.php(199): Automattic\Jetpack\Sync\Listener->enqueue_action('jetpack_update_...', Array, Object(Automattic\Jetpack\Sync\Queue))
+#2 /home4/rarococo/public_html/drome/wp-includes/class-wp-hook.php(303): Automattic\Jetpack\Sync\Listener->action_handler(Object(stdClass))
+#3 /home4/rarococo/public_html/drome/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home4/rarococo/public_html/drome/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home4/rarococo/public_html/drome/wp-content/plugi in /home4/rarococo/public_html/drome/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-listener.php on line 402
+[08-Mar-2022 16:17:39 UTC] PHP Warning:  require_once(/home4/rarococo/public_html/drome/wp-content/plugins/astra-sites/inc/importers/wxr-importer/class-astra-wxr-importer.php): failed to open stream: No such file or directory in /home4/rarococo/public_html/drome/wp-content/plugins/astra-sites/inc/classes/class-astra-sites-importer.php on line 164
+[08-Mar-2022 16:17:39 UTC] PHP Fatal error:  require_once(): Failed opening required '/home4/rarococo/public_html/drome/wp-content/plugins/astra-sites/inc/importers/wxr-importer/class-astra-wxr-importer.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/rarococo/public_html/drome/wp-content/plugins/astra-sites/inc/classes/class-astra-sites-importer.php on line 164
+[08-Mar-2022 16:17:41 UTC] PHP Warning:  include(/home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/vendor/composer/../../inc/class-wpseo-replace-vars.php): failed to open stream: No such file or directory in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce-paypal-payments/vendor/composer/ClassLoader.php on line 571
+[08-Mar-2022 16:17:41 UTC] PHP Warning:  include(/home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/vendor/composer/../../inc/class-wpseo-replace-vars.php): failed to open stream: No such file or directory in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce-paypal-payments/vendor/composer/ClassLoader.php on line 571
+[08-Mar-2022 16:17:41 UTC] PHP Warning:  include(): Failed opening '/home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/vendor/composer/../../inc/class-wpseo-replace-vars.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce-paypal-payments/vendor/composer/ClassLoader.php on line 571
+[08-Mar-2022 16:17:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'WPSEO_Replace_Vars' not found in /home4/rarococo/public_html/drome/wp-includes/class-wp-hook.php on line 307
+[08-Mar-2022 16:17:41 UTC] PHP Warning:  include(/home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/vendor/composer/../../src/integrations/admin/addon-installation/dialog-integration.php): failed to open stream: No such file or directory in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce-paypal-payments/vendor/composer/ClassLoader.php on line 571
+[08-Mar-2022 16:17:41 UTC] PHP Warning:  include(/home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/vendor/composer/../../src/integrations/admin/addon-installation/dialog-integration.php): failed to open stream: No such file or directory in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce-paypal-payments/vendor/composer/ClassLoader.php on line 571
+[08-Mar-2022 16:17:41 UTC] PHP Warning:  include(): Failed opening '/home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/vendor/composer/../../src/integrations/admin/addon-installation/dialog-integration.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce-paypal-payments/vendor/composer/ClassLoader.php on line 571
+[08-Mar-2022 16:17:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Admin\Addon_Installation\Dialog_Integration' not found in /home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#1 /home4/rarococo/public_html/drome/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home4/rarococo/public_html/drome/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home4/rarococo/public_html/drome/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home4/rarococo/public_html/drome/wp-settings.php(587): do_action('init')
+#5 /home4/rarococo/public_html/drome/wp-config.php(101): require_once('/home4/rarococo...')
+#6 /home4/rarococo/public_html/drome/wp-load.php(50): require_once('/home4/rarococo...')
+#7 /home4/rarococo/public_html/drome/wp-blog-header.php(13): require_once('/home4/rar in /home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+[08-Mar-2022 16:17:41 UTC] PHP Warning:  include(/home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/vendor/composer/../../src/integrations/admin/addon-installation/dialog-integration.php): failed to open stream: No such file or directory in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce-paypal-payments/vendor/composer/ClassLoader.php on line 571
+[08-Mar-2022 16:17:41 UTC] PHP Warning:  include(/home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/vendor/composer/../../src/integrations/admin/addon-installation/dialog-integration.php): failed to open stream: No such file or directory in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce-paypal-payments/vendor/composer/ClassLoader.php on line 571
+[08-Mar-2022 16:17:41 UTC] PHP Warning:  include(): Failed opening '/home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/vendor/composer/../../src/integrations/admin/addon-installation/dialog-integration.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/rarococo/public_html/drome/wp-content/plugins/woocommerce-paypal-payments/vendor/composer/ClassLoader.php on line 571
+[08-Mar-2022 16:17:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Admin\Addon_Installation\Dialog_Integration' not found in /home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#1 /home4/rarococo/public_html/drome/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home4/rarococo/public_html/drome/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home4/rarococo/public_html/drome/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home4/rarococo/public_html/drome/wp-settings.php(587): do_action('init')
+#5 /home4/rarococo/public_html/drome/wp-config.php(101): require_once('/home4/rarococo...')
+#6 /home4/rarococo/public_html/drome/wp-load.php(50): require_once('/home4/rarococo...')
+#7 /home4/rarococo/public_html/drome/wp-blog-header.php(13): require_once('/home4/rar in /home4/rarococo/public_html/drome/wp-content/plugins/wordpress-seo/src/loader.php on line 228
